@@ -1,6 +1,6 @@
-package fr.univ_amu.iut.tp2;
+package fr.univ_amu.iut.exo1;
 
-import fr.univ_amu.iut.tp2.exceptions.WhatTheFuckException;
+import fr.univ_amu.iut.exo1.exceptions.WhatTheFuckException;
 
 public class ArbreBinaire <T> {
     private ArbreBinaire <T> fg, fd, pere;

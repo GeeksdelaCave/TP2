@@ -1,4 +1,4 @@
-package fr.univ_amu.iut.tp2.exceptions;
+package fr.univ_amu.iut.exo1.exceptions;
 
 public class WhatTheFuckException extends RuntimeException {
 

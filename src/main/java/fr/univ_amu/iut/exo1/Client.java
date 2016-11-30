@@ -1,4 +1,4 @@
-package fr.univ_amu.iut.tp2;
+package fr.univ_amu.iut.exo1;
 
 public class Client {
 

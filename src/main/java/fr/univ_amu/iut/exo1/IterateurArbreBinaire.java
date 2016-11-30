@@ -46,6 +46,3 @@ public class IterateurArbreBinaire <T> implements Iterator <T> {
             return arbreBinaire;
     }
 }
-
-//fils droit du père égal au courant
-//si oui : je remonte d'un niveau

@@ -1,5 +1,7 @@
 package fr.univ_amu.iut.exo1;
 
+import java.util.Iterator;
+
 public class Client {
 
     public static ArbreBinaire <String> feuille (String mot) {

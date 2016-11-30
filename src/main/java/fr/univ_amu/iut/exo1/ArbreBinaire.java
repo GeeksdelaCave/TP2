@@ -2,6 +2,8 @@ package fr.univ_amu.iut.exo1;
 
 import fr.univ_amu.iut.exo1.exceptions.WhatTheFuckException;
 
+import java.util.Iterator;
+
 public class ArbreBinaire <T> {
     private ArbreBinaire <T> fg, fd, pere;
     private T contenu;

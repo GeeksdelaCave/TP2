@@ -1,11 +1,11 @@
-package fr.univ_amu.iut.exo2;
+package fr.univ_amu.iut.tp2.exo2;
 
 public class ExpressionComposee extends Expression {
 
     private Expression fg, fd;
-    private String operande;
+    private char operande;
 
-    public ExpressionComposee(Expression fg, Expression fd, String operande) {
+    public ExpressionComposee(Expression fg, Expression fd, char operande) {
         this.fg = fg;
         this.fd = fd;
         this.operande = operande;
@@ -13,13 +13,13 @@ public class ExpressionComposee extends Expression {
 
     public double calculer() {
         switch (operande) {
-            case "+":
+            case '+':
                 return fg.calculer() + fd.calculer();
-            case "-":
+            case '-':
                 return fg.calculer() - fd.calculer();
-            case "*":
+            case '*':
                 return fg.calculer() * fd.calculer();
-            case "/":
+            case '/':
                 if (fd.calculer() == 0) throw new IllegalArgumentException("Diviseur égal 0");
                 return fg.calculer() / fd.calculer();
         }

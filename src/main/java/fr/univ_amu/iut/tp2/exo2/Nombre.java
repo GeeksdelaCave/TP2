@@ -1,4 +1,4 @@
-package fr.univ_amu.iut.exo2;
+package fr.univ_amu.iut.tp2.exo2;
 
 public class Nombre extends Expression {
     private double nombre;

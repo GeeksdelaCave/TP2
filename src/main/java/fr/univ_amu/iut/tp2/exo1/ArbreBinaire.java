@@ -1,8 +1,6 @@
-package fr.univ_amu.iut.exo1;
+package fr.univ_amu.iut.tp2.exo1;
 
-import fr.univ_amu.iut.exo1.exceptions.WhatTheFuckException;
-
-import java.util.Iterator;
+import fr.univ_amu.iut.tp2.exo1.exceptions.WhatTheFuckException;
 
 
 public class ArbreBinaire <T> implements Iterable<T> {

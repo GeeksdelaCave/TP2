@@ -1,6 +1,4 @@
-package fr.univ_amu.iut.exo1;
-
-import java.util.Iterator;
+package fr.univ_amu.iut.tp2.exo1;
 
 public class Client {
 

@@ -4,7 +4,8 @@ import fr.univ_amu.iut.exo1.exceptions.WhatTheFuckException;
 
 import java.util.Iterator;
 
-public class ArbreBinaire <T> {
+
+public class ArbreBinaire <T> implements Iterable<T> {
     private ArbreBinaire <T> fg, fd, pere;
     private T contenu;
 
@@ -60,5 +61,10 @@ public class ArbreBinaire <T> {
         this.fg = fg;
         this.fd = fd;
         this.contenu = contenu;
+    }
+
+    @Override
+    public IterateurArbreBinaire<T> iterator() {
+        return new IterateurArbreBinaire<>(this);
     }
 }
